@@ -1,0 +1,267 @@
+body {
+    background-color: #f5fafa;
+    color: #333;
+}
+
+header {
+    background-color: #275436;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Estilos para banner principal */
+.banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 220px 0;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+/* Estilos para seção de conscientização ambiental */
+.conscientizacao-section {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.conscientizacao-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.conscientizacao-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.conscientizacao-section ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.conscientizacao-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para seção de conscientização ambiental */
+.conscientizacao-section {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.conscientizacao-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.conscientizacao-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.conscientizacao-section ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.conscientizacao-section ul li {
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.conscientizacao-section ul li:before {
+    content: "\2022";
+    color: #275436;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.conscientizacao-section img {
+    width: 280px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para seção de ações e projetos */
+.acoes-projetos {
+    background-color: #eaf3ec;
+    padding: 50px 0;
+}
+
+.acoes-projetos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.acao {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.acao h3 {
+    color: #275436;
+    margin-bottom: 10px;
+}
+
+.acao p {
+    color: #555;
+}
+
+.acao img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.acao {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.acao h3 {
+    color: #275436;
+    margin-bottom: 10px;
+}
+
+.acao p {
+    color: #555;
+}
+
+/* Estilos para formulários de login e cadastro */
+.login-section, .cadastro-section {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2, .cadastro-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-section label, .cadastro-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-section input, .cadastro-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-section button, .cadastro-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-section button:hover, .cadastro-section button:hover {
+    background-color: #555;
+}
+
+.login-section p, .cadastro-section p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-section a, .cadastro-section a {
+    color: #333;
+    text-decoration: none;
+}
+
+.login-section a:hover, .cadastro-section a:hover {
+    text-decoration: underline;
+}
